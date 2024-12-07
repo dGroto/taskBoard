@@ -69,9 +69,7 @@ async function loadBoard(boardId) {
         if (infoColumns.ok) {
             const columns = await infoColumns.json();
             
-/*      Atualizar o título do quadro, se necessário - Supondo que a API retorne o nome do quadro 
-          Caso contrário, ajuste conforme a resposta da API*/
-            boardTitle.innerText ="CU" 
+
             creatColumns(columns,columnContainer)
        
     } else {
