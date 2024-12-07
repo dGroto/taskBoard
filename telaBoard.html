@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/ligthMode.css" />
+    <title>TaskBoard</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container-title">
+      <h2 class="title-nav">TaskBoard</h2>
+      <div class="divider"></div>
+      <div id="message-bemVindo"></div>
+    </div>
+    <select id="select-board">
+      <option class="option-board" >Select Board</option>
+    </select>
+    <label class="switch">
+      <input type="checkbox" id="button-darkmode">
+      <span class="slider-darkmode"></span>
+      <p>DarkMode</p>
+    </label>
+  </nav>
+  <h2 id="board-title"></h2>
+  <div id="column-container" class="columns">
+    <!-- As colunas serão inseridas aqui dinamicamente -->
+     <div id="task-columns"></div>
+  </div>
+
+  </body>
+  <script src="./scriptBoard.js"></script>
+</html>
