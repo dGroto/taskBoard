@@ -107,7 +107,7 @@ async function taskColumn(columnId) {
             console.log(infoTask);
             const taskJson = await infoTask.json()
             console.log(infoTask);
-            creatTask(taskJson,divTask)
+            await creatTask(taskJson,divTask)
         }else {
             console.error("Erro ao carregar colunas:", infoTask.status);
         }      

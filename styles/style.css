@@ -23,10 +23,10 @@ body {
     border-radius: 12px; /*BORDAS ARREDONDADAS*/
     width: 380px; /*LARGURA*/
     height: 380px; /*ALTURA IGUAL À LARGURA*/
-    background-color: rgba(255, 255, 255, 0.3); /*FUNDO TRANSPARENTE*/
+    background-color: rgba(255, 255, 255, 0.58); /*FUNDO TRANSPARENTE*/
     display: flex; /*LAYOUT FLEXÍVEL*/
     align-items: center; /*ALINHA OS ITENS AO CENTRO VERTICALMENTE*/
-    justify-content: center; /*ALINHA OS ITENS AO CENTRO HORIZONTALMENTE*/
+    justify-content:space-between; /*ALINHA OS ITENS AO CENTRO HORIZONTALMENTE*/
     flex-direction: column; /*ORGANIZA OS ITENS EM UMA COLUNA*/
     box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3); /*SOMBRA SUAVE*/
     padding: 35px; /*ESPAÇAMENTO INTERNO*/
@@ -37,7 +37,7 @@ body {
 /*TÍTULO*/
 .tituloEmail {
     font-size: 24px; /*TAMANHO DA FONTE*/
-    font-weight: bold; /*NEGRITO NO TEXTO*/
+    font-weight: 400; /*NEGRITO NO TEXTO*/
     color: black; /*COR PARA O TEXTO*/
     margin-bottom: 20px; /*MARGEM INFERIOR PARA ESPAÇAMENTO*/
     text-align: center; /*ALINHA O TEXTO NO CENTRO*/
@@ -50,10 +50,9 @@ body {
 #mensagemError {
     display: none;
     color: red; /*COR PARA O TEXTO*/
-    font-size: 14px; /*TAMANHO DA FONTE*/
-    margin-top: 10px; 
+    font-size: 18px; /*TAMANHO DA FONTE*/
     text-align: center; /*ALINHA O TEXTO NO CENTRO*/
-    font-weight: 500;
+    font-weight: 500 ;
 }
 
 /*CAMPO DE EMAIL*/
@@ -92,7 +91,6 @@ body {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
     transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
     text-align: center;
-    margin-top: 25px;
     letter-spacing: 1px;
     padding: 0 15px;
 }
